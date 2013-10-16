@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Aero Control</string>
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
-    <string name="error_detected">Error ?</string>
+    <string name="app_name">Aero内核控制</string>
+    <string name="drawer_open">打开导航</string>
+    <string name="drawer_close">关闭导航</string>
+    <string name="error_detected">出错?</string>
 
     <!-- Default Navigation Drawer entries -->
 
-    <string name="slider_overview">Overview</string>
-    <string name="slider_cpu_settings">CPU Performance</string>
-    <string name="slider_gpu_settings">GPU Control</string>
-    <string name="slider_memory_settings">Memory Tuning</string>
-    <string name="slider_defy_parts">Defy Parts</string>
-    <string name="slider_updater">Updater</string>
+    <string name="slider_overview">预览</string>
+    <string name="slider_cpu_settings">CPU性能控制</string>
+    <string name="slider_gpu_settings">GPU性能控制</string>
+    <string name="slider_memory_settings">内存管理</string>
+    <string name="slider_defy_parts">Defy设置</string>
+    <string name="slider_updater">升级</string>
 
     <string-array name="aero_array">
         <item>@string/slider_overview</item>
@@ -24,12 +24,12 @@
 
     <!-- Overview Elements -->
 
-    <string name="kernel_version">Kernel:</string>
-    <string name="current_cpu_speed">CPU Frequency:</string>
-    <string name="current_gpu_speed">GPU Frequency:</string>
-    <string name="current_governor">Governor:</string>
-    <string name="current_io_governor">I/O-Scheduler:</string>
-    <string name="available_memory">Total Memory:</string>
+    <string name="kernel_version">内核:</string>
+    <string name="current_cpu_speed">CPU频率:</string>
+    <string name="current_gpu_speed">GPU频率:</string>
+    <string name="current_governor">调速器:</string>
+    <string name="current_io_governor">I/O调度器:</string>
+    <string name="available_memory">总内存:</string>
 
     <string-array name="overview_array">
         <item>@string/kernel_version</item>
@@ -41,36 +41,36 @@
 
     <!-- Action Overflow Menu -->
 
-    <string name="about">About</string>
-    <string name="aero_settings">Settings</string>
+    <string name="about">关于</string>
+    <string name="aero_settings">设置</string>
 
     <!-- Preference Menu -->
 
     <string name="pref_appspecific">App specific </string>
-    <string name="pref_setatboot">Set at Boot</string>
-    <string name="pref_setatboot_sum">Caution: This will set your settings at boot.</string>
-    <string name="pref_updatepath">Updatelocation:</string>
-    <string name="pref_updatepath_sum">Set your desired update path.</string>
+    <string name="pref_setatboot">启动时设置</string>
+    <string name="pref_setatboot_sum">注意:这将在启动时启用您的设置.</string>
+    <string name="pref_updatepath">更新路径:</string>
+    <string name="pref_updatepath_sum">设置您的更新路径.</string>
 
     <!-- CPU Fragment -->
 
-    <string name="pref_cpu_freq">Frequencies</string>
-    <string name="pref_cpu_freqmax">Max. Frequency</string>
-    <string name="pref_cpu_freqmin">Min. Frequency</string>
-    <string name="pref_cpu_governor">Governor Settings</string>
-    <string name="pref_cpu_suspend_freq">Suspend Frequency</string>
+    <string name="pref_cpu_freq">频率</string>
+    <string name="pref_cpu_freqmax">最大频率</string>
+    <string name="pref_cpu_freqmin">最小频率</string>
+    <string name="pref_cpu_governor">调速器设置</string>
+    <string name="pref_cpu_suspend_freq">当前频率</string>
 
-    <string name="pref_gov_choose">Governor Settings</string>
-    <string name="pref_gov_choose_sum">This will set your favorite governor!</string>
+    <string name="pref_gov_choose">调速器设置</string>
+    <string name="pref_gov_choose_sum">这将设置你想要的调速器</string>
 
-    <string name="pref_gov_set">Governor Specific Settings</string>
-    <string name="pref_gov_set_sum">Set the governor Specific settings here.</string>
+    <string name="pref_gov_set">调速器具体设置</string>
+    <string name="pref_gov_set_sum">在这里设置调速器的具体设置.</string>
 
     <!-- Memory Fragment -->
-    <string name="pref_memory_settings">Memory Settings</string>
+    <string name="pref_memory_settings">内存管理设置</string>
 
     <string name="pref_memory_swappiness">Swappiness</string>
-    <string name="pref_memory_swappiness_sum">Swappiness defines how aggressive the kernel will swap memory pages </string>
+    <string name="pref_memory_swappiness_sum">Swappiness将定义内核将如何处理内存页交换</string>
 
     <string name="pref_dynamic_fsync">Dynamic FSync</string>
     <string name="pref_dynamic_fsync_sum">Dynamic FSync enables fsync only while the screen is off.</string>
