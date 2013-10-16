@@ -51,7 +51,7 @@ public class AboutFragment extends Fragment {
         listView1.setAdapter(adapter);
 
         textView1 = (TextView) root.findViewById(R.id.aboutScreen);
-        textView1.setText(" The joy of living is in the giving.");
+        textView1.setText(" 人生的乐趣是在奉献！");
 
 
         return root;
