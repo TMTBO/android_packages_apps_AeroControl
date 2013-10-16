@@ -14,12 +14,12 @@
 
     <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:scaleType="center" />
 
     <TextView
-        android:textSize="18dip"
+        android:textSize="20dip"
         android:id="@+id/aboutScreen"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
