@@ -72,27 +72,26 @@
     <string name="pref_memory_swappiness">Swappiness</string>
     <string name="pref_memory_swappiness_sum">Swappiness将定义内核将如何处理内存页交换</string>
 
-    <string name="pref_dynamic_fsync">Dynamic FSync</string>
-    <string name="pref_dynamic_fsync_sum">Dynamic FSync enables fsync only while the screen is off.</string>
+    <string name="pref_dynamic_fsync">动态FSync</string>
+    <string name="pref_dynamic_fsync_sum">只有当屏幕关闭，动态FSync才启用!</string>
 
     <string name="pref_memory_swap">Swap</string>
     <string name="pref_memory_swap_sum">Create a swap device.</string>
 
     <string name="pref_memory_zcache">zCache</string>
-    <string name="pref_memory_zcache_sum">Enable zCache</string>
+    <string name="pref_memory_zcache_sum">启用zCache</string>
 
-    <string name="pref_memory_zcache_compression">zCache Compression</string>
-    <string name="pref_memory_zcache_compression_sum">Choose the compression method for zCache.</string>
+    <string name="pref_memory_zcache_compression">zCache 压缩</string>
+    <string name="pref_memory_zcache_compression_sum">选择zCache的压缩方式.</string>
 
-    <string name="fstrim_header">Trim Option</string>
-    <string name="fstrim_content">Trim several parts of your system! This might take a while.</string>
+    <string name="fstrim_header">Trim选项</string>
+    <string name="fstrim_content">整理你的系统的几个分区！这可能需要一段时间.</string>
 
     <!-- GPU Fragment -->
-    <string name="pref_gpu_controll_enable">GPU Control</string>
-    <string name="pref_gpu_controll_enable_sum">This will enable the GPU Control driver. It handles overclocking/undervolting as well
-                                            as some basic scheduling for the GPU.</string>
-    <string name="pref_gpu_max_freq">Max. Frequency</string>
-    <string name="pref_gpu_max_freq_sum">This will set the maximum GPU Frequency. Default is 200 MHz.</string>
+    <string name="pref_gpu_controll_enable">GPU控制</string>
+    <string name="pref_gpu_controll_enable_sum">这个选项将启用GPU控制驱动.这个GPU调度器将处理GPU的超频和降频.</string>
+    <string name="pref_gpu_max_freq">最大频率</string></string>
+    <string name="pref_gpu_max_freq_sum">这将设置最大GPU频率.默认频率是 200 MHz.</string>
 
     <!-- static GPU Frequencies for now -->
 
@@ -113,6 +112,6 @@
     </string-array>
 
     <!-- IO Scheduler -->
-    <string name="io_scheduler">IO Scheduler</string>
+    <string name="io_scheduler">IO 调度器</string>
 
 </resources>
